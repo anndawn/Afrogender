@@ -1061,6 +1061,7 @@ let keys3=keys.map((d)=>d+" FE");
 let keys0=[...keys2,...keys3]
 console.log(keys0);
     options = {
+    title:{text: "Number of Students in Tertiary Education by Gender"}
     tooltip : {
         trigger: 'axis',
         axisPointer : {            // 坐标轴指示器，坐标轴触发有效
@@ -1106,14 +1107,14 @@ console.log(keys0);
             type:'bar',
             stack: 'BEN',
             data:newdata2[0]["FP"],
-            color:"rgb(233, 80, 14)"
+            color:"#E04644"
         },
         {
             name:keys[0]+" MA",
             type:'bar',
             stack: 'BEN',
             data:newdata2[0]["MP"],
-            color:"rgba(233, 80, 14,0.5)"
+            color:"rgba(242, 89, 51, 0.42)"
 
         },
         {
@@ -1121,14 +1122,14 @@ console.log(keys0);
             type:'bar',
             stack: 'COT',
             data:newdata2[1]["FP"],
-            color:"rgb(78, 233, 14)"
+            color: "#FEDC70"
         },
         {
             name:keys[1]+" MA",
             type:'bar',
             stack: 'COT',
             data:newdata2[1]["MP"],
-            color:"rgba(78, 233, 14,0.5)"
+            color:"rgba(253, 230, 191, 0.8)"
 
         },
         {
@@ -1136,7 +1137,7 @@ console.log(keys0);
             type:'bar',
             stack: 'GHA',
             data:newdata2[2]["FP"],
-            color:"rgb(216, 14, 233)"
+            color:"#C784A4"
 
         },
         {
@@ -1144,7 +1145,7 @@ console.log(keys0);
             type:'bar',
             stack: 'GHA',
             data:newdata2[2]["MP"],
-            color:"rgba(216, 14, 233, 0.43)"
+            color:"rgba(181, 118, 173, 0.4)"
 
         },
         {
@@ -1152,7 +1153,7 @@ console.log(keys0);
             type:'bar',
             stack: 'GUI',
             data:newdata2[3]["FP"],
-            color:"rgb(14, 43, 233)"
+            color:"#81CDE5"
 
         },
         {
@@ -1160,7 +1161,7 @@ console.log(keys0);
             type:'bar',
             stack: 'GUI',
             data:newdata2[3]["MP"],
-            color:"rgba(14, 43, 233, 0.43)"
+            color:"rgba(171, 213, 225, 0.8)"
 
         },
         {
@@ -1168,7 +1169,7 @@ console.log(keys0);
             type:'bar',
             stack: 'LIB',
             data:newdata2[4]["FP"],
-            color:"rgb(9, 9, 9)"
+            color:"#555E7B"
 
         },
         {
@@ -1176,7 +1177,7 @@ console.log(keys0);
             type:'bar',
             stack: 'LIB',
             data:newdata2[4]["MP"],
-            color:"rgba(99, 99, 102, 0.51)"
+            color:"rgba(117, 135, 188, 0.3)"
 
         },
         {
@@ -1184,7 +1185,7 @@ console.log(keys0);
             type:'bar',
             stack: 'NIG',
             data:newdata2[5]["FP"],
-            color:"rgb(196, 22, 72)"
+            color:"rgba(244, 94, 240, 0.8)"
 
         },
         {
@@ -1192,15 +1193,14 @@ console.log(keys0);
             type:'bar',
             stack: 'NIG',
             data:newdata2[5]["MP"],
-            color:"rgba(196, 22, 53, 0.45)"
-
+            color:"rgba(244, 94, 240, 0.4)"
         },
         {
             name:keys[6]+" FE",
             type:'bar',
             stack: 'TOG',
             data:newdata2[6]["FP"],
-            color:"rgb(22, 196, 133)"
+            color:"#B7D968"
 
         },
         {
@@ -1208,7 +1208,7 @@ console.log(keys0);
             type:'bar',
             stack: 'TOG',
             data:newdata2[6]["MP"],
-            color:"rgba(22, 196, 133, 0.45)"
+            color:"rgba(234, 230, 72, 0.5)"
 
         }
     ]
